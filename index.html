@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Esempio di tables</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: 300%;
+            background-image: url("bg.jpg");
+            background-size: cover;
+        }
+        p {
+            color: #30C;
+        }
+        .test_table {
+            font-family: verdana;
+            font-size: 50%;
+            width: 100%;
+            border-style: solid;
+            padding: 6px 10px;
+            margin: 10px 4px;
+        }
+
+        caption {
+            padding: 2px 2px;
+            background-color: #FDD;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-left-style: solid;
+        }
+
+        .group1 {
+            background-color: #BFB;
+        }
+        .group2 {
+            background-color: #FBB;
+        }
+
+        .table_img {
+            width: 25%;
+            height: 25%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Tables</h1>
+    <hr />
+    <p>Simple example of the properties and elements of tables</p>
+    <!--<img class="table_img" src="https://cdn.educba.com/academy/wp-content/uploads/2019/10/Create-Tables-in-HTML.png" />-->
+    <img class="table_img" src="Create-Tables-in-HTML.png" />
+    <table class="test_table">
+        <caption>Testing table elements</caption>
+        <colgroup>
+            <col span="2" class="group1" />
+            <col span="2" class="group2" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Group 1-1</th>
+                <th scope="col">Group 1-2</th>
+                <th scope="col">Group 2-1</th>
+                <th scope="col">Group 2-2</th>
+            </tr>
+        </thead>
+        <tr>
+            <td>td1</td>
+            <td>td2</td>
+            <td>td3</td>
+            <td>td4</td>
+        </tr>
+        <tr>
+            <td>td1</td>
+            <td>td2</td>
+            <td>td3</td>
+            <td>td4</td>
+        </tr>
+        <tr>
+            <td>td1</td>
+            <td>td2</td>
+            <td>td3</td>
+            <td>td4</td>
+        </tr>
+        <tr>
+            <td>td1</td>
+            <td>td2</td>
+            <td>td3</td>
+            <td>td4</td>
+        </tr>
+    </table>
+
+</body>
+</html>
